@@ -1,0 +1,50 @@
+html {
+    margin: 0;
+    min-height: 100%;
+    background-color: #616161;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+.logo {
+    height: 100px;
+    width: 200px;
+    align-items: center;
+    color: #3581ae;
+    font-size:x-large;
+    font-weight: bold;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.header-items {
+    align-items: center;
+}
+
+.header {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.header-items a {
+    flex: 1;
+    margin-left: 2rem;
+    color: 
+    #de9c24;
+}
+
+
+
