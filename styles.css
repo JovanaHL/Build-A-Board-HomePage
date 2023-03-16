@@ -24,6 +24,14 @@ img {
     padding-right: 1rem;
 }
 
+.all-text {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 2rem;
+    color: white;
+    text-align: center;
+}
+
 .text-size {
     font-weight: 600;
     font-size: 1rem;
@@ -38,6 +46,14 @@ img {
 
 .justify-between {
     justify-content: space-between;
+}
+
+.text-button {
+    background-color: #3581ae;
+    border-radius: 5px;
+    min-width: 50px;
+    margin: 0.5rem;
+    padding: 5px 10px;
 }
 
 .logo {
@@ -60,18 +76,13 @@ img {
 
 .header-items a {
     flex: 1;
-    min-width: 50px;
-    margin: 0.5rem;
-    padding: 5px 10px;
-    background-color: #3581ae;
-    border-radius: 5px;
 }
 
-.main {
-    margin: 30px;
+.main div {
     padding: 30px;
     align-items: center;
 }
+
 
 
 
