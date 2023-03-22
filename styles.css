@@ -79,6 +79,8 @@ img {
 .header {
     padding-left: 32px;
     padding-right: 32px;
+	max-width: 75rem;
+	margin: 0 auto;
 }
 
 .header-items {
@@ -91,6 +93,8 @@ img {
 
 .main div, .header-div {
     padding: 30px;
+    max-width: 80rem;
+    margin: 0 auto;
 }
 
 
