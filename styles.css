@@ -25,9 +25,9 @@ img {
 }
 
 .main-images {
-    width: 250px;
+    width: 275px;
     height: 150px;
-    object-fit: cover;
+    filter: brightness(0.50);
 }
 
 .all-text {
@@ -45,6 +45,14 @@ img {
     color: #353540;
     text-align: center;
   }
+
+.img-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.50rem;
+}
 
 .flex {
     display: flex;
@@ -79,24 +87,30 @@ img {
 .header {
     padding-left: 32px;
     padding-right: 32px;
-	max-width: 75rem;
-	margin: 0 auto;
+    max-width: 75rem;
+    margin: 0 auto;
 }
 
 .header-items {
     align-items: center;
 }
 
-.header-items a, .main img {
+.header-items a {
     flex: 1;
 }
 
-.main div, .header-div {
+.header-div, .main-div {
     padding: 30px;
+}
+
+.main {
     max-width: 80rem;
     margin: 0 auto;
 }
-
+.container {
+    position: relative;
+    flex: 1;
+  }
 
 
 
