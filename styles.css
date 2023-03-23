@@ -17,6 +17,7 @@ img {
     border-radius: 20px;
 }
 
+/* -- IMG ADJUSTMENTS -- */
 .logo img {
     filter: invert(1);
     height: 80px;
@@ -30,6 +31,7 @@ img {
     filter: brightness(0.50);
 }
 
+/* -- TYPOGRAPHY? -- */
 .all-text {
     font-weight: 600;
     font-size: 1rem;
@@ -51,9 +53,10 @@ img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 1.50rem;
+    font-size: 1.75rem;
 }
 
+/* -- UTILS? -- */
 .flex {
     display: flex;
 }
@@ -107,10 +110,10 @@ img {
     max-width: 80rem;
     margin: 0 auto;
 }
-.container {
+.img-container {
     position: relative;
     flex: 1;
-  }
+}
 
 
 
