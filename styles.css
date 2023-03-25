@@ -10,7 +10,7 @@ body {
 }
 
 img {
-    width: 400px;
+    width: 375px;
     height: 200px;
     object-fit: cover;
     padding: 10px;
@@ -59,6 +59,7 @@ img {
 /* -- UTILS? -- */
 .flex {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .justify-between {
@@ -98,7 +99,7 @@ img {
     align-items: center;
 }
 
-.header-items a {
+.header-items a, .header-div div {
     flex: 1;
 }
 
@@ -110,12 +111,16 @@ img {
     max-width: 80rem;
     margin: 0 auto;
 }
+
 .img-container {
     position: relative;
-    flex: 1;
+    flex: auto;
 }
 
+.header-div div:nth-child(2) {
+    flex-basis: 500px;
+}
+    
 .banner-div {
     background-color: #3581ae;
 }
-
