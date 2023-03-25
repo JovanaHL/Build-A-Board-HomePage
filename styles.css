@@ -66,6 +66,11 @@ img {
     justify-content: space-between;
 }
 
+.mx-w-centered {
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
 .text-button {
     background-color: #3581ae;
     border-radius: 5px;
@@ -83,7 +88,7 @@ img {
     font-weight: bold;
 }
 
-.section-wrapper {
+.header-wrapper {
     background-color: #21212c;
     padding-bottom: 15px;
 }
@@ -103,24 +108,30 @@ img {
     flex: 1;
 }
 
+.header-div div:nth-child(2) {
+    flex-basis: 500px;
+}
+   
 .header-div, .main-div {
     padding: 30px;
-}
-
-.main {
-    max-width: 80rem;
-    margin: 0 auto;
 }
 
 .img-container {
     position: relative;
     flex: auto;
 }
-
-.header-div div:nth-child(2) {
-    flex-basis: 500px;
+ 
+.banner-wrapper {
+    background-color: #21212c;
+    margin-top: 20px;
+    padding: 20px 0;
 }
-    
-.banner-div {
-    background-color: #3581ae;
+
+.banner {
+    flex-direction: column;
+}
+
+.footer {
+    width: 60rem;
+    margin: 20px auto;
 }
